@@ -17,9 +17,9 @@ export default function Upvote() {
         <button className="bg-orange-500 mt-10 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded h-12 w-[150px]">
           Confirm email
         </button>
-        <button className="absolute text-2xl bg-white rounded-full  top-2 left-2 text-black font-bold py-2 px-4 " onClick={handleClose}>
-          x
-        </button>
+        <button className="absolute top-0 right-0 text-white font-bold py-2 px-4 rounded" onClick={handleClose}>
+  &times;
+</button>
       </div>
     </div>
   );

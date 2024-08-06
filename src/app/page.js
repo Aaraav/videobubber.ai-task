@@ -17,9 +17,7 @@ export default function Home() {
       <Header />
       <div className="w-full h-[300px] items-start justify-start">
         <h3 className='text-md ml-[25%] mt-10'>Home {'>'} Product {'>'} Videodubber-Fast video translator </h3>
-
         <img src="https://ph-files.imgix.net/3153ed76-d013-4a2b-a7ac-f2f4cbfc3cc4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=72&h=72&fit=crop&dpr=1" className="ml-[25%] mt-5" />
-
         <div className="ml-[25%] mt-12">
           <h1 className="font-bold text-2xl">VideoDubber-Fast Video Translator</h1>
           <div className="w-full h-20 flex mt-5">
@@ -35,7 +33,7 @@ export default function Home() {
       </div>
       {showUpvote && (
         <div className="absolute top-0 left-0 w-screen h-screen flex items-center justify-center">
-          <Upvote />
+          <Upvote/>
         </div>
       )}
       <div className="w-full flex items-center justify-center">
@@ -64,12 +62,11 @@ Free Options</p>
 <div className="w-[50%] ml-[25%] items-center h-20 flex mt-14 border-2">
             <p className="text-gray-400 text-xl items-center justify-center">Maker Shoutouts<br/>
             We couldn't have built this without...</p>
-            <img className="w-10 h-10 ml-10" src='https://ph-files.imgix.net/2ac55d3a-eb08-44f4-ab25-721c75f14dc0.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=34&h=34&fit=crop&dpr=1' />
-            <img className="w-10 h-10" src='https://ph-files.imgix.net/37d77c0c-f875-49bc-a840-a347e9ee4a5f.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=34&h=34&fit=crop&dpr=1' />
-
-             <img className="w-10 h-10" src='https://ph-files.imgix.net/7a01a00b-d41d-4367-b44e-e1d0a672819b.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=34&h=34&fit=crop&dpr=1' />
+            <img className="w-10 h-10 ml-10" src="https://ph-files.imgix.net/2ac55d3a-eb08-44f4-ab25-721c75f14dc0.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=34&h=34&fit=crop&dpr=1" />
+            <img className="w-10 h-10" src="https://ph-files.imgix.net/37d77c0c-f875-49bc-a840-a347e9ee4a5f.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=34&h=34&fit=crop&dpr=" />
+             <img className="w-10 h-10" src="https://ph-files.imgix.net/7a01a00b-d41d-4367-b44e-e1d0a672819b.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=34&h=34&fit=crop&dpr=1"/>
             <button className=" ml-10   text-black border-2  font-bold py-2 px-4 rounded h-12 w-[150px]" >
-              Show More
+              ShowMore
             </button>
           </div>
           <p className="w-[55%] text-left text-sm ml-[33%] mt-4">Please, confirm your email address (your email) to join the discussion 😺

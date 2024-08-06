@@ -5,6 +5,7 @@ export default function Upvote() {
 
   const handleClose = () => {
     setShow(false);
+    window.location.reload();
   };
 
   return (

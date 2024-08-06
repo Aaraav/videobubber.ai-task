@@ -9,7 +9,7 @@ export default function Home() {
   const [showUpvote, setShowUpvote] = useState(false);
 
   const handleUpvoteClick = () => {
-    setShowUpvote(true);
+    setShowUpvote(x=>!x);
   };
 
   return (

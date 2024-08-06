@@ -38,12 +38,5 @@
   }
 
   /* Adjust width for smaller screens */
-  .w-[55%] {
-    width: 100%;
-  }
-
-  /* Adjust width for smaller screens */
-  .w-[50%] {
-    width: 100%;
-  }
+ 
 }

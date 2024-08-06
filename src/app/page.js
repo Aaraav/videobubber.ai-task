@@ -28,8 +28,8 @@ export default function Home() {
               Visit
             </button>
             <button className="bg-orange-500 ml-10  hover:bg-orange-700 text-white font-bold py-2 px-4 rounded h-12 w-[150px]" onClick={handleUpvoteClick}>
-              Upvote 53
-            </button>
+  Upvote53
+</button>
           </div>
         </div>
       </div>
@@ -61,8 +61,7 @@ Free Options</p>
  
 <span className="bg-blue-300 rounded-lg px-3 py-2">Video</span></p>
 
-<div className="w-[50%] mt-10 ml-[25%] items-center h-20 flex mt-14
- border-2">
+<div className="w-[50%] ml-[25%] items-center h-20 flex mt-14 border-2">
             <p className="text-gray-400 text-xl items-center justify-center">Maker Shoutouts<br/>
             We couldn't have built this without...</p>
             <img className="w-10 h-10 ml-10" src='https://ph-files.imgix.net/2ac55d3a-eb08-44f4-ab25-721c75f14dc0.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=34&h=34&fit=crop&dpr=1' />

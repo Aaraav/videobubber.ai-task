@@ -16,7 +16,7 @@ export default function Home() {
     <div className="relative items-center justify-center">
       <Header />
       <div className="w-full h-[300px] items-start justify-start">
-        <h3 className='text-md ml-[25%] mt-10'>Home {'>'} Product {'>'} Videodubber-Fast video translator </h3>
+        <h3 className='text-md ml-[25%] mt-10'>Home {">"} Product {">"} Videodubber-Fast video translator </h3>
         <img src="https://ph-files.imgix.net/3153ed76-d013-4a2b-a7ac-f2f4cbfc3cc4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=72&h=72&fit=crop&dpr=1" className="ml-[25%] mt-5" />
         <div className="ml-[25%] mt-12">
           <h1 className="font-bold text-2xl">VideoDubber-Fast Video Translator</h1>

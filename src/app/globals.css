@@ -2,32 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Adjust font sizes for smaller screens */
+  h1, h2, h3, p {
+    font-size: 1rem;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  /* Center content horizontally */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  /* Adjust spacing for smaller screens */
+  .mt-10 {
+    margin-top: 5rem;
+  }
+
+  /* Adjust button spacing */
+  .ml-10 {
+    margin-left: 2rem;
+  }
+
+  /* Adjust image sizes */
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust list item spacing */
+  .space-x-4 {
+    gap: 1rem;
+  }
+
+  /* Adjust width for smaller screens */
+  .w-[55%] {
+    width: 100%;
+  }
+
+  /* Adjust width for smaller screens */
+  .w-[50%] {
+    width: 100%;
   }
 }
